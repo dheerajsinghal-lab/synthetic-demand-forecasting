@@ -1,0 +1,27 @@
+{
+  "data_type": "synthetic",
+  "observations": 365,
+  "train_observations": 337,
+  "train_feature_rows": 323,
+  "holdout_days": 28,
+  "forecast_days": 14,
+  "train_end": "2026-09-25",
+  "holdout_start": "2026-09-26",
+  "holdout_end": "2026-10-23",
+  "evaluation": "fixed-origin recursive, no holdout actuals used as features",
+  "ridge": {
+    "mae_units": 7.517309852531226,
+    "rmse_units": 9.570422847319762
+  },
+  "weekly_naive": {
+    "mae_units": 10.321428571428571,
+    "rmse_units": 11.968709203585824
+  },
+  "versions": {
+    "python": "3.10.12",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "matplotlib": "3.10.9"
+  }
+}
